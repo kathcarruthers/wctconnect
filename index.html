@@ -82,9 +82,10 @@ var CRM = {"config":{"isFrontend":""}};
 <script type="text/javascript" src="/sites/all/modules/contrib/civicrm/js/noconflict.js?r=Memp1">
 </script>
 <form  action="https://www.wct-fct.com/en/civicrm/profile/create?gid=32&amp;reset=1" method="post" name="Edit" id="Edit" class="CRM_Profile_Form_Edit" >
-
-
-  <div><input name="gid" type="hidden" value="32" />
+  
+      
+  <div><input name="entryURL" type="hidden" value="https://www.wct-fct.com/en/civicrm/profile/create?gid=32&amp;reset=1/update?action=update&amp;amp;id=32&amp;amp;reset=1&amp;amp;context=field" />
+<input name="gid" type="hidden" value="32" />
 <input name="_qf_default" type="hidden" value="Edit:next" />
 </div>
 
@@ -95,8 +96,10 @@ var CRM = {"config":{"isFrontend":""}};
 
 
     <div id="crm-container" class="crm-container crm-public" lang="en" xml:lang="en">
+  
+      <div class="messages help"><p>Sign up to be a member of WCT Connect at launch.</p>
 
-      <div id="editrow-first_name" class="crm-section editrow_first_name-section form-item"><div class="label"><label for="first_name">First Name</label></div><div class="edit-value content"><input maxlength="64" size="30" name="first_name" type="text" id="first_name" class="big crm-form-text" /></div><div class="clear"></div></div><div id="editrow-last_name" class="crm-section editrow_last_name-section form-item"><div class="label"><label for="last_name">Last Name</label></div><div class="edit-value content"><input maxlength="64" size="30" name="last_name" type="text" id="last_name" class="big crm-form-text" /></div><div class="clear"></div></div><div id="editrow-email-Primary" class="crm-section editrow_email-Primary-section form-item"><div class="label"><label for="email-Primary">Email</label></div><div class="edit-value content"><input maxlength="254" size="20" name="email-Primary" type="text" id="email-Primary" class="medium crm-form-text" /></div><div class="clear"></div></div><div id="editrow-state_province-Primary" class="crm-section editrow_state_province-Primary-section form-item"><div class="label"><label for="state_province-Primary">Province</label></div><div class="edit-value content"><select data-callback="civicrm/ajax/jqState" data-empty-prompt="Choose country first" data-none-prompt="- N/A -" class="crm-select2 crm-form-select" data-select-prompt="- none -" data-name="state_province-Primary" name="state_province-Primary" id="state_province-Primary">
+<p>You grant permission to send email notifications to this address, and may unsubscribe at any time.</p></div><div id="editrow-first_name" class="crm-section editrow_first_name-section form-item"><div class="label"><label for="first_name">First Name</label></div><div class="edit-value content"><input maxlength="64" size="30" name="first_name" type="text" id="first_name" class="big crm-form-text" /></div><div class="clear"></div></div><div id="editrow-last_name" class="crm-section editrow_last_name-section form-item"><div class="label"><label for="last_name">Last Name</label></div><div class="edit-value content"><input maxlength="64" size="30" name="last_name" type="text" id="last_name" class="big crm-form-text" /></div><div class="clear"></div></div><div id="editrow-email-Primary" class="crm-section editrow_email-Primary-section form-item"><div class="label"><label for="email-Primary">Email</label></div><div class="edit-value content"><input maxlength="254" size="20" name="email-Primary" type="text" id="email-Primary" class="medium crm-form-text" /></div><div class="clear"></div></div><div id="editrow-state_province-Primary" class="crm-section editrow_state_province-Primary-section form-item"><div class="label"><label for="state_province-Primary">Province</label></div><div class="edit-value content"><select data-callback="civicrm/ajax/jqState" data-empty-prompt="Choose country first" data-none-prompt="- N/A -" class="crm-select2 crm-form-select" data-select-prompt="- none -" data-name="state_province-Primary" name="state_province-Primary" id="state_province-Primary">
 	<option value="">- none -</option>
 	<option value="1100">Alberta</option>
 	<option value="1101">British Columbia</option>
@@ -128,18 +131,17 @@ var CRM = {"config":{"isFrontend":""}};
 	<option value="Québec">Québec</option>
 	<option value="Saskatchewan">Saskatchewan</option>
 	<option value="1">Online Webinar</option>
-</select> <a href="https://www.wct-fct.com/en/civicrm/admin/options/region_20130618164825?reset=1" class="crm-option-edit-link medium-popup crm-hover-button" target="_blank" title="Edit Options" data-option-edit-path="civicrm/admin/options/region_20130618164825"><span class="icon ui-icon-wrench"></span></a></div><div class="clear"></div></div><div class="crm-submit-buttons" style=''>
-
+</select> <a href="https://www.wct-fct.com/en/civicrm/admin/options/region_20130618164825?reset=1" class="crm-option-edit-link medium-popup crm-hover-button" target="_blank" title="Edit Options" data-option-edit-path="civicrm/admin/options/region_20130618164825"><span class="icon ui-icon-wrench"></span></a></div><div class="clear"></div></div><div class="crm-submit-buttons" style=''>                                                                                              
+        
         <span class="crm-button crm-button-type-next crm-button_qf_Edit_next crm-icon-button">
-          <span class="crm-button-icon ui-icon-check"> </span>          <input class="crm-form-submit default validate" accesskey="S" crm-icon="check" name="_qf_Edit_next" value="Sign me up" type="submit" id="_qf_Edit_next" />
+          <span class="crm-button-icon ui-icon-check"> </span>          <input class="crm-form-submit default validate" accesskey="S" crm-icon="check" name="_qf_Edit_next" value="Save" type="submit" id="_qf_Edit_next" />
         </span>
-<!-- Cancel link not required
-				    <a class="button cancel" href="https://www.wct-fct.com/en/civicrm/profile?reset=1&gid=32">Cancel</a></div>
- -->
-</div>
+      <a class="button cancel" href="https://www.wct-fct.com/en/civicrm/profile?reset=1&gid=32">Cancel</a></div>
+
+</div> 
 <script type="text/javascript">
   </script>
-
+  
 <script type="text/javascript">
 
 CRM.$(function($) {
@@ -149,7 +151,7 @@ CRM.$(function($) {
 
 </script>
 
-</div>
+</div>   
   </form>
 </p>
 
